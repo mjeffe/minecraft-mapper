@@ -1,0 +1,72 @@
+#!/bin/bash
+
+#gnuplot -p -e '
+#set datafile sep ",";
+#plot "mcmap-coords.csv" using 1:2:3 with labels point offset character 0,character 1 tc rgb "blue"
+#'
+
+plot_live() {
+        # set term wxt size 1000,1000;
+        # set term wxt background rgb "gray75";
+        # set xrange [-15000:15000];
+        # set yrange [-10000:10000];
+    #gnuplot -p -e ' use -persist with default qt term, but not wxt
+    gnuplot -e '
+        set term wxt background rgb "#FFFFFF" font ",6";
+        set grid;
+        set autoscale;
+        set datafile separator ",";
+        set pointsize 0.75;
+        plot "mcmap-coords.csv" using 1:2:3 with labels point offset character 0,character 1 tc rgb "blue";
+        pause mouse close;
+'
+}
+
+        # use autoscale or xrange & yrange
+        #set autoscale;
+        #plot "mcmap-coords.csv" using 1:2:3 with labels point offset character 0,character 1 textcolor rgb "blue";
+        #plot "mcmap-coords.csv" using 1:2:3 with labels point offset character 0,character 1 textcolor rgb "blue" rotate by 30;
+        # set label at 0,0 point ps 7;
+
+plot_svg() {
+    # get castle coordinates
+    castle_coords=$(grep ',Castle ' mcmap-coords.csv | awk -F, '{printf("%s,%s", $1, $2)}')
+    #castle_coords="-380,1150"
+
+cat <<EOF | gnuplot
+        set term svg size 1600,1600 dynamic background rgb "#FFFFFF" font ",6";
+        set xrange [-7000:9000];
+        set yrange [-7000:9000];
+        set xtics 250;
+        set ytics 250;
+        set grid;
+        set pointsize 0.75;
+
+        # create as svg file
+        set output "mcmap.svg";
+
+        # highlight the castle and origin
+        set object circle at 0,0 size 30 fillcolor rgb "blue";
+        set object circle at $castle_coords size 30 fillcolor rgb "red";
+
+        # crosshairs through origin
+        set arrow from 0,-7000 to 0,9000 nohead lc rgb "gray";
+        set arrow from -7000,0 to 9000,0 nohead lc rgb "gray";
+
+        # box around the general area of our map room (start bottom left)
+        set arrow from -3500,-1500 to -3500,4000 nohead lc rgb "blue";  # left
+        set arrow from -3500,4000 to 1500,4000 nohead lc rgb "blue";    # top
+        set arrow from 1500,4000 to 1500,-1500 nohead lc rgb "blue";    # right
+        set arrow from 1500,-1500 to -3500,-1500 nohead lc rgb "blue";  # bottom
+
+        set datafile separator ",";
+        plot "mcmap-coords.csv" using 1:2:3 with labels point left offset character 0.5, character -0.25;
+EOF
+}
+
+coords_file="$1"
+python format_data.py $1 gnuplot > mcmap-coords.csv
+
+#plot_live
+plot_svg
+
