@@ -1,0 +1,187 @@
+# ---------------------------------------------------------------------------
+# BFCS Location Coordinates
+#
+#  X : -west +east
+#  Y : -down +up
+#  Z : -north +south
+#
+#  Seed: -1913793616
+# ---------------------------------------------------------------------------
+
+# end of mapping se of weslyn -1658 63 391
+# build major pier at Little Venice
+
+# train tunnel: 1222 52 -633
+# train tunnel: 1366 25 -633
+
+# ---------------------
+# Castle: -380 50 -1150
+# Home: -222 93 -1015
+# ---------------------
+
+Origin: 0 68 0
+Arctic Deep Mine port: -2812 63 -3074
+#Arctic Deep Mine: -2853 14 -3087
+Cliff Side trail ruins: 220 91 1955
+Badú: -1921 63 1724
+Bjerk: 7934 66 -4430
+Bjerk2: 8270 70 -4493
+Blackstone Tower: -1250 63 -2040
+Bridgerton: -5923 72 875
+Buffalo: -1365 67 -4016
+Bullseye N of Aidan's house: -249 89 -2289
+Bullseye NW Jungle: -3068 98 -3740
+Bullseye NE Island: 6 66 -2909
+Bullseye S: -109 71 1166
+Caryn's lake house: -107 66 -992
+Castle: -380 50 -1150
+#Castle mine: -443 10 -1177
+#Castle Map NW Corner: -448 62 -1216
+#Castle Trading Post: -369 49 -1230
+Cherry orchard house: 1268 125 2203
+Chickeneata: -3205 70 -1461
+Coalrabby: -3765 78 -4287
+Colosseum trail ruins (in taiga): 797 51 -4300
+Colormanjaro: 636 64 -4553
+Cow Town: -1920 79 890
+Criple Creek: -455 63 -908
+Deep Dark Landing: -3441 9 -2064
+Eastern Sea Great Coral: 2222 55 -2233
+Elaine's house: -62 64 141
+#End portal: 1229 29 -1846
+Ender Keep: 1212 87 -1833
+Fenville: 1575 63 -708
+Fenville Train Station: 1620 73 -745
+Festerville: -972 69 -1030
+#Festerville mine: -963 11 -900
+#Festerfille underwater house: -1030 44 -963
+Floating Totem: -631 97 257
+Fort Dust: -868 64 -1404
+Fort East: 742 67 -1253
+Fort Exodus: -1266 64 -1465
+Fort Tristan: 45 64 -660
+Foxborough: 222 71 750
+Friendly Arms Inn: -673 63 -1340
+Glacier Town: 104 71 -3361
+Haven Island: -2311 63 -2934
+Honeypot Village: 645 64 -1989
+Jicamel-by-the-sea: -5251 63 -1338
+Kwebeck: -5784 73 25
+Lippen's End: -1032 64 2517
+#Lippen's End Amythest Geode: -1040 10 2445
+Little Acacia Wood: -541 81 544
+Little Venice: -1278 63 -1870
+Lush Cave: 765 -5 -4343
+Mangrove Forest: -4008 64 -5150
+Mjeffe's House: -222 93 -1015
+Mireside: -312 70 800
+Monument Valley Keep: 38 81 372
+New Dubai: 672 70 767
+Nordsk: -5733 63 -966
+Ocean Side Trail Ruins: 2907 77 -3771
+Pennimor (island town): -3122 63 77
+Pickleton (next to Pennimor): -3236 64 100
+Pike's Peak: -2971 254 -3146
+Pillager Outpost: -2407 84 1847
+Playatito: -2414 63 2366
+Portsmouth: -320 65 360
+Puffer Castle Island: -2310 67 -2478
+Rogues Cove: -5385 68 34
+Skaarsgard: 1736 66 -2501
+Solaris: -6160 64 130
+Southern Carpathian Mountains (SW of Mireside): -735 135 939
+Spoilford: -1188 69 -937
+Syria: -2262 64 3437
+Terracottalotta: -4088 70 -2123
+Undercliff (geode): -1534 69 -314
+Westlyn: -1956 82 48
+Wheaton: 167 64 1659
+Woodland Mansion: -6080 63 2690
+Yamabetsu: -2288 78 -597
+Yamabetsu Port: -2052 64 -790
+
+# # Points of interest
+# # ---------------------
+# underwater sw corner: -1388 40 1287
+# Panda Jungle: -3239 92 -3419
+# Jungle Bullseye Island: -3068 68 -3740
+# Jungle Portal Island: -3081 65 -3582
+# Jungle Pyramid: -2698 70 -3973
+# Field of Alliums: -611 120 918
+# Calcite Vein: -2942 140 -2846
+# Isla arena NW (near shipwreck): -2244 66 -2800
+# N coast of arctic (due N or arctic ocean): -2426 68 -3267
+# arctic island: -2387 68 -2550
+# ice sheet near arctic underwater blowfish temple: -2782 63 -2552
+# treasure map (florida) W of underwater blowfish temple: -2309 68 -2474
+# treasure map N of arctic: -2960 64 -2211
+# the dark city giant tv: -3468 -42 -2134
+# point above underground city: -3539 93 -2140
+# abandoned mineshaft in terracotta land: -3199 92 -2327
+# acacia town E of terracotta land: -3202 88 -2521
+# huge dripstone cavern by westlyn: -1726 66 32
+# huge chain cavern/abandoned mine: -1966 23 193
+# dripstone cave entrance - from water: -3000 67 -2701
+# dripstone cave entrance - huge: -3241 98 -2690
+# jungle portal fire: -2535 64 160
+# jungle: -2540 79 -3885
+# terracotta mine: -3321 80 -1517
+# dripstone cave: -577 64 783
+# NW arctic ocean: -2316 64 -2464
+# N ocean: 398 83 -2245
+# NE ocean island: 2137 64 -2733
+# NE ocean farthest point: 2239 67 -2978
+# E ocean: 1640 67 -903
+# # arctic underwater castle with killer puffer fish: -2409 66 -2425
+# Ocean Monument: -2447 62 -2346
+# Ocean Monument2: -2717 62 -2252
+# Abandoned Mineshaft: -3162 87 -2288
+# 
+# 6 Blocks N of Aidan's house: -246 87 -2294
+# treasure map in NW arctic: -2309 68 -2475
+# treasure: 2343 65 -2509
+# mineshaft: -1337 30 -1512
+# new portal exit: 353 71 2492
+# temple: -1278 63 -1870
+# abandoned mineshaft: -162 18 -1220
+# abandond mine near festerville: -682 35 -914
+# edge of map south of fort tristan: 35  65? -832
+
+# Nether Coordinates:
+# --------------
+# !!! YOU HAVE TO BE IN THE NETHER BEFORE ATTEMPTING TO TELEPORT !!!
+# Aidan's nether gate: -42 41 -190
+# xp farm: -351 236 -242
+# Crimson/warped forest: -632 48 -330
+
+
+# Project ideas
+# --------------
+# Kingdom infrastructure
+# Roads
+# Bridges
+# Lamp posts along roads
+# Inns and guardposts along the roads
+#  Monument valley work
+
+# caryn last jungle -2780 68 -570
+
+# possible town names
+# https://www.fantasynamegenerators.com
+# ------------------
+# Endings: haven, ville, burg, wold, ington
+# Journey's End
+# Begger's Hole
+# King's Watch
+# Southwold
+# Shawlington
+# Dog Town
+# Jaiyuba
+# Lundy
+# Easthallow
+# Utupa
+# Birkina
+# Whisper Woods
+# Dankwah
+# Anbaek
+# Gwaseong
